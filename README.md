@@ -19,4 +19,8 @@
 
 ## Setup
 
-The setup happens on the fly. All information will be requested when needed.
+```
+gem install git-start
+```
+
+Other configuration happens on the fly. All information will be requested when needed.
