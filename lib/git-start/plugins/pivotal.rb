@@ -35,6 +35,10 @@ before_finish do
   @summary = generate_summary
 end
 
+after_finish do
+  update_story @story.id, current_state: :finished
+end
+
 
 def generate_summary
   <<-MARKDOWN.gsub(/^    /, '').gsub(/\n+/, "\n\n")
