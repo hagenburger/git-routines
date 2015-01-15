@@ -30,3 +30,19 @@ Other configuration happens on the fly. All information will be requested when n
 ## Work in Progress
 
 This is brand new but at [Homify](https://www.homify.co.uk) we’re using it for our workflows. It is mostly done, feedback is welcome, and [GitHub issues integration](https://github.com/hagenburger/git-start/issues/1) as alternative to PivotalTracker is in the planning. Other tools should be easy to integrate. Have a look into the source or ping me [on Twitter](https://twitter.com/hagenburger). If you have a better name for this, let me know ;)
+
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'add some awesome feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+
+## Copyright
+
+Copyright 2015 [Nico Hagenburger](http://www.hagenburger.net).
+See [MIT-LICENSE.txt](MIT-LICENSE.txt) for details.
+Get in touch with [@hagenburger](http://twitter.com/hagenburger) on Twitter or [open an issue](https://github.com/hagenburger/git-start/issues/new).
