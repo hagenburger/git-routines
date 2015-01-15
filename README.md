@@ -17,6 +17,8 @@
 * _Optional:_ Opens a GitHub pull request (incl. link to the corresponding PivotalTracker story)
 * Checks out *master*
 
+The first questions will only be asked once:
+![git-start-demo](https://cloud.githubusercontent.com/assets/103399/5758653/6e2229c4-9cc7-11e4-9b49-c05e87817499.png)
 
 ## Setup
 
