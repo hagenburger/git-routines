@@ -19,6 +19,7 @@
 
 The first questions will only be asked once:
 ![git-start-demo](https://cloud.githubusercontent.com/assets/103399/5758653/6e2229c4-9cc7-11e4-9b49-c05e87817499.png)
+![git-start-pull-request](https://cloud.githubusercontent.com/assets/103399/5758752/5f7af6de-9cc8-11e4-8e04-f968ee6acf94.png)
 
 ## Setup
 
