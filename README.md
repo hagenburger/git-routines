@@ -25,3 +25,8 @@ gem install git-start
 ```
 
 Other configuration happens on the fly. All information will be requested when needed.
+
+
+## Work in Progress
+
+This is brand new but at [Homify](https://www.homify.co.uk) we’re using it for our workflows. It is mostly done, feedback is welcome, and [GitHub issues integration](https://github.com/hagenburger/git-start/issues/1) as alternative to PivotalTracker is in the planning. Other tools should be easy to integrate. Have a look into the source or ping me [on Twitter](https://twitter.com/hagenburger). If you have a better name for this, let me know ;)
