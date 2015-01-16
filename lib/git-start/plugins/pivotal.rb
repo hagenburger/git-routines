@@ -36,7 +36,8 @@ before_finish do
 end
 
 after_finish do
-  update_story @story.id, current_state: :finished
+  new_state = @story.story_type == 'chore' ? 'accepted' : 'finished'
+  update_story @story.id, current_state: new_state
 end
 
 
