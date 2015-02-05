@@ -1,4 +1,4 @@
-# Git-Start
+# Git-Routines
 
 `git start`—a Git workflow helper that:
 
@@ -18,13 +18,13 @@
 * Checks out *master*
 
 The first questions will only be asked once:
-![git-start-demo](https://cloud.githubusercontent.com/assets/103399/5758653/6e2229c4-9cc7-11e4-9b49-c05e87817499.png)
-![git-start-pull-request](https://cloud.githubusercontent.com/assets/103399/5758752/5f7af6de-9cc8-11e4-8e04-f968ee6acf94.png)
+![git-routines-demo](https://cloud.githubusercontent.com/assets/103399/5758653/6e2229c4-9cc7-11e4-9b49-c05e87817499.png)
+![git-routines-pull-request](https://cloud.githubusercontent.com/assets/103399/5758752/5f7af6de-9cc8-11e4-8e04-f968ee6acf94.png)
 
 ## Setup
 
 ```
-gem install git-start
+gem install git-routines
 ```
 
 Other configuration happens on the fly. All information will be requested when needed.
@@ -32,7 +32,7 @@ Other configuration happens on the fly. All information will be requested when n
 
 ## Work in Progress
 
-This is brand new but at [Homify](https://www.homify.co.uk) we’re using it for our workflows. It is mostly done, feedback is welcome, and [GitHub issues integration](https://github.com/hagenburger/git-start/issues/1) as alternative to PivotalTracker is in the planning. Other tools should be easy to integrate. Have a look into the source or ping me [on Twitter](https://twitter.com/hagenburger). If you have a better name for this, let me know ;)
+This is brand new but at [Homify](https://www.homify.co.uk) we’re using it for our workflows. It is mostly done, feedback is welcome, and [GitHub issues integration](https://github.com/hagenburger/git-routines/issues/1) as alternative to PivotalTracker is in the planning. Other tools should be easy to integrate. Have a look into the source or ping me [on Twitter](https://twitter.com/hagenburger). If you have a better name for this, let me know ;)
 
 
 ## Contributing
@@ -48,4 +48,4 @@ This is brand new but at [Homify](https://www.homify.co.uk) we’re using it for
 
 Copyright 2015 [Nico Hagenburger](http://www.hagenburger.net).
 See [MIT-LICENSE.txt](MIT-LICENSE.txt) for details.
-Get in touch with [@hagenburger](http://twitter.com/hagenburger) on Twitter or [open an issue](https://github.com/hagenburger/git-start/issues/new).
+Get in touch with [@hagenburger](http://twitter.com/hagenburger) on Twitter or [open an issue](https://github.com/hagenburger/git-routines/issues/new).

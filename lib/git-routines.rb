@@ -1,4 +1,4 @@
-require 'git-start/version'
+require 'git-routines/version'
 require 'hooks'
 require 'fileutils'
 
@@ -9,7 +9,7 @@ PLUGINS = {
   'pull-request' => 'Open pull request after finishing',
 }
 
-class GitStart
+class GitRoutines
   include Hooks
   include Hooks::InstanceHooks
 
@@ -90,7 +90,7 @@ class GitStart
       @included_plugins ||= []
       return if @included_plugins.include?(plugin)
       @included_plugins << plugin
-      file = File.expand_path("../git-start/plugins/#{plugin}.rb", __FILE__)
+      file = File.expand_path("../git-routines/plugins/#{plugin}.rb", __FILE__)
       instance_eval File.read(file)
     end
 
@@ -124,13 +124,13 @@ class GitStart
 
   setup do
     @column_size = 5
-    plugins = config('git-start.plugins').strip.split(',')
+    plugins = config('git-routines.plugins').strip.split(',')
     if plugins.empty?
       question = 'Choose plugins (comma separated)'
       select_multiple_of(question, PLUGINS.values).each do |index|
         plugins << PLUGINS.keys[index]
       end
-      git :config, :local, 'git-start.plugins', plugins.join(',')
+      git :config, :local, 'git-routines.plugins', plugins.join(',')
     end
     plugins.each do |plugin|
       include_plugin plugin
