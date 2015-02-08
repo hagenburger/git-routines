@@ -75,7 +75,7 @@ class GitRoutines
       value = git(:config, key).strip
       if value == '' and !question.nil?
         value = ask_for(question, default)
-        git :config, scope, key, value
+        git :config, scope, key, %{"#{value}"}
       end
       value
     end
