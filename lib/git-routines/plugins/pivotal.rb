@@ -55,7 +55,7 @@ def stories
 end
 
 def filter
-  "current_state:unscheduled,unstarted,rejected mywork:#{@user_initials}"
+  "current_state:unscheduled,unstarted,rejected,planned mywork:#{@user_initials}"
 end
 
 def select_story
